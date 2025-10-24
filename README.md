@@ -4,7 +4,7 @@ Shift Awal : H
 Shift Akhir : E
 
 # VIDEO DEMO
-![Responsi 1](app\src\main\java\com\example\responsi1mobileh1d023033\vidio\gif1.giv)
+![Responsi 1](src\main\java\com\example\responsi1mobileh1d023033\vidio\gif1.giv)
 
 # ALUR API
 mengambil data dari api melalui Apiservice.kt -> data yang diterima berupa JSON lalu di bahasakan oleh model agar dapat dipahami si kotlin -> lalu TeamViewModel.kt mengatur data yang didapatkan agar dapat digunakan dalam tampilan-> 
