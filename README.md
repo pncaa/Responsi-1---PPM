@@ -4,7 +4,7 @@ Shift Awal : H
 Shift Akhir : E
 
 # VIDEO DEMO
-![Responsi 1](vidio/gif1.gif)
+![Responsi 1](app/src/main/java/com/example/responsi1mobileh1d023033/vidio/gif1.gif)
 
 
 # ALUR API
