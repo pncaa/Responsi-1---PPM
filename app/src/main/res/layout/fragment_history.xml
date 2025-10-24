@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+<ImageButton
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_kembali"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/bg_rounded"
+    android:src="@drawable/arrow_back"
+    android:scaleType="centerInside"
+    android:paddingEnd="60dp"
+    android:paddingVertical="10dp"/>
+
+
+    <!-- Gambar Header -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_histori" />
+
+    <!-- Judul Utama -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sejarah"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <!-- Konten scrollable -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="6dp">
+
+        <!-- Semua isi di dalam ScrollView dibungkus LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Awal Mula"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Klub ini didirikan pada tahun 1922 dan pada awalnya mereka memakai seragam kuning dan merah sama seperti warna lambang kotanya. Pada masa awal mereka hanya bermain di liga amatir regional Emilia di mana mereka bersaing dengan tim-tim seperti Carpi, Roteglia, Vignola, Guastalla, Mirandolese, dan rival utama Baracca Lugo."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Kiprah di Serie D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pada tahun 1968 mereka berhasil naik ke Serie D girone B bersama Carpi dan Mirandolese. Pada musim 1970-71, mereka mengganti warna seragam mereka dengan hijau dan hitam sekaligus menggunakan nama F.C. Sassuolo. Pada waktu itu mereka bermain di lapangan bernama Via Mazzini yang juga merupakan alun-alun kota tersebut. Presiden mereka saat itu adalah Primo Costi dan pelatihnya adalah Angelo Octane."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada musim 1971-71 mereka mengubah nama menjadi F.C. Sportiva Sassuolo dan pelatih Angelo Octane digantikan oleh Augusto Vaccari. Pada waktu itu di grup yang sama terdapat dua tim yang berasal dari Sassuolo, yakitu FC Sportiva Sassuolo dan San Giorgio Sassuolo sehingga pertemuan keduanya selalu berlangsung sengit dalam sebuah derby. Namun pencapaian San Giorgio lebih baik daripada FC Sportiva Sassuolo di mana mereka mampu bertahan di Serie D dengan menampati urutan ke 14. Sedangkan Sassuolo harus degradasi ke Eccellenza bersama dengan Cisanese dan Guastalla."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada tahun 1973 FC Sportiva Sassuolo dan San Giorgio Sassuolo bergabung dan menggunakan nama U.S. Sassuolo Calcio serta memakai seragam berwarna merah dan biru dalam strip vertikal mirip seragam Bologna untuk menghormati Ezio Pascutti, pelatih baru mereka dan mantan pemain asal Sassuolo yang baru saja gantung sepatu yang sebelumnya bermain di Bologna dan juga pemain tim nasional Italia. Pada musim tersebut Sassuolo menempati posisi ke 9 di Serie D."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Memasuki Liga Profesional"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pada musim 1975-76 di bawah pelatih Augusto Octane dan presiden Igino Guazzi, Sassuolo harus turun ke liga amatir setelah bermain buruk sepanjang musim. Sejak saat itu mereka hanya bermain di antara Serie D dan liga inter regional. Pada musim 1983-84 mereka pindah ke Fiorano dan sejak saat itu keberuntungan seakan menaungi Sassuolo. Dilatih oleh Aurelio Dotti, tim yang saat itu telah memakai kembali seragam berwarna hijau dan hitam berhasil promosi ke Serie C2 untuk pertama kalinya. Pada musim 1987-88 mereka berhasil finish di urutan ke lima Serie C2, yang merupakan prestasi terbaiknya waktu itu. Mereka bertahan di sana hingga musim 1989-90."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada tahun 2002 banyak klub yang mengalami kesulitan keuangan sehingga berbuah keuntungan untuk neroverdi dengan diperbolehkan mengikuti playoff ke Serie C1 dikarenakan banyak klub yang diturunkan paksa karena gagal memenuhi persyaratan finansial, walaupun akhirnya gagal naik ke Serie C1. Pada masa ini pula muncul orang-orang yang akan menjadi tulang punggung kesuksesan Sassuolo pada musim-musim berikutnya seperti pemain-pemain muda Filippo Pensalfini dan Ferdinando Sforzini, juga direktur olahraga Nereo Bonato dan pelatih Cristiano Bergodi. Pada musim 2004-05 mereka mampu melaju hingga babak playoff promosi namun dikalahkan oleh Pizzighettone."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada musim 2005-06, Gianmarco Remondina ditunjuk sebagai pelatih. Sassuolo harus berjuang melawan Cavese untuk memperebutkan promosi, tetapi pada akhir musim berbekal kemenangan atas Ancona dan San Sovino,mereka akhirnya promosi ke Serie C1 untuk pertam kali. Musim pertama mereka di Serie C1 tidak bisa dibilang buruk, mereka menempati posisi kedua klasemen akhir di bawah Grosetto dan mengikuti babak playoff ke Serie B. Di semifinal mereka mengalahkan Monza namun kalah dari Pisa di babak final."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Keajaiban di Serie B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Mimpi mereka bermain di Serie B akhirnya terwujud pada musim 2007-08, di mana mereka yang saat itu dilatih oleh Massimiliano Allegri mengalahkan Manfredonia pada pertandingan terakhir dan memperoleh promosi ke Serie B untuk pertama kalinya. Di musim pertama di Serie B 2008-09, mereka membeli pemain-pemain ternama seperti Riccardo Zampagna, Mauro Bressan, Alessandro Noselli, Andrea Poli, dan Marco Andreolli. Pelatih mereka pun diisi oleh pelatih terkenal Andrea Mandorlini. Walau awalnya kalah dari Salernitana, mereka mampu bermain impresif sehingga finish di urutan ke tujuh di musim pertama mereka di Serie B, hanya satu tingkat di bawah zona playoff promosi ke Serie A. Pada waktu itu mereka menggunakan stadion Stadio Alberto Braglia di kota Modena dikarenakan stadion mereka Stadio Ricci terlalu kecil untuk kompetisi Serie B."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada musim 2010-2011 permainan Sassuolo menurun sehingga hanya mampu menyelesaikan musim di urutan ke 16. Namun kejutan terjadi di musim 2011-12 di mana mereka selalu menghuni papan atas klasemen Serie B dan hampir promosi langsung ke Serie A dengan dikomandani oleh striker Gianluca Sansone yang berhasil mencetak 20 gol pada musim tersebut. Mereka akhirnya mampu finish di urutan ketiga, hanya satu strip di bawah Torino yang promosi langsung ke Serie A. Sassuolo mengikuti playoff, tetapi mereka dikalahkan oleh Sampdoria di babak semifinal."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Promosi ke Serie A"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sekali lagi, mimpi Sassuolo untuk bermain di liga yang lebih tinggi hanya tertunda satu tahun. Di musim 2012-13 mereka benar-benar tidak terhentikan dengan menjuarai Serie B dan promosi ke Serie A secara langsung untuk pertama kalinya di bawah pelatih Eusebio Di Francesco yang merupakan mantan pemain dan pelatih primavera A.S. Roma. Mereka memuncaki klasemen Serie B dengan nilai 85 poin, 3 angka di atas Verona yang menempati posisi ke dua."
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

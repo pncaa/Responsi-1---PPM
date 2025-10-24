@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnKembali"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_rounded"
+        android:src="@drawable/arrow_back"
+        android:scaleType="centerInside"
+        android:paddingEnd="60dp"
+        android:paddingVertical="10dp"/>
+
+
+    <!-- Gambar Header -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_coach" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCoach"
+        android:layout_marginTop="16dp"
+        android:text="Coach Name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNation"
+        android:text="prancis"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Fabio Grosso (lahir 28 November 1977) adalah pelatih dan mantan pemain sepak bola profesional Italia yang bermain sebagai bek kiri. Ia dipanggil ke tim nasional Italia pertama kalinya pada tahun 2003 dan berpartisipasi di Piala Dunia 2006. Saat ini ia menjadi pelatih klub Serie A Sassuolo."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
+
